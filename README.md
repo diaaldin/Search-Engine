@@ -22,12 +22,11 @@ Each product opinion is in the following structure:
 To run the program, you only need python 3.7
 
 ## NOTE! 
+ The time complexity vary between one PC to other, and thats because the program check the abilities of the running PC.
+ So, time complexity will be related to the memory that the OS gave the program, and the number of cores (processes that can be run on the PC), if the memory we got wasn't enough to fit a single review (due to a very huge review or a small size of chunk) the program will throw an exception.
 
-### The time complexity vary between one PC to other, and thats because the program check the abilities of the running PC.
-### So, time complexity will be related to the memory that the OS gave the program, and the number of cores (processes that can be run on the PC), if the memory we got wasn't enough to fit a single review (due to a very huge review or a small size of chunk) the program will throw an exception.
 
-
-## To work with a huge file, you can download zipped 1M review and put it in data_file dir after unzipping, you can use this link to download
+### To work with a huge file, you can download zipped 1M review and put it in data_file dir after unzipping, you can use this link to download
 https://drive.google.com/file/d/1fDpwPpMOzaikDln1espcynDvgBjb3s6t/view?usp=sharing
 
 #### dont forget to uncomment line 16 in main.py and comment line 15 in main.py  
